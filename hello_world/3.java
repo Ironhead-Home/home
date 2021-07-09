@@ -1,12 +1,11 @@
-import java.util.*;  
-
 public class MyClass {
     public static void main(String args[]) {
-        Scanner sc= new Scanner(System.in); //System.in is a standard input stream  
-        
-        System.out.print("Enter a string: ");  
-        String str= sc.nextLine();              //reads string   
-        System.out.print("You have entered: "+str);      
+        int x = 10;
+        System.out.println("x = " + x);
+        int y = x + 100;
+        System.out.println("y = " + y);
 
+        String s = "Ironhead Home";
+        System.out.println("s = " + s);
     }
 }
