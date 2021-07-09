@@ -4,7 +4,7 @@ public class MyClass {
         System.out.println("x = " + x);   
         int y = x + 100;  // 將變數x加上100後再存入int變數y
         System.out.println("y = " + y);
-
+     
         String s1 = "Ironhead Home";  // 將字串存入String變數s1
         System.out.println("s1 = " + s1);
         
